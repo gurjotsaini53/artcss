@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.one{
+    width: 60px;
+    height: 60px;
+    border: 1px red solid;
+
+    border-radius: 50%;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+    border-radius: 50%;
+}
+.three{
+    width: 150px;
+    height: 150px;
+    border: 1px red solid;
+
+    border-radius: 50%;
+}
+
+
+
+.sun{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+.p1 ,.p2,.p3{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: red;
+
+    animation: round 5s linear infinite;
+}
+
+.p1{
+    margin-left: 150px;
+    transform-origin: -66px 1px ;
+
+   
+}
+
+.p2{
+    margin-left: 70px;
+    transform-origin: -66px 1px;
+}
+
+.p3{
+margin-top: 69px;
+transform-origin: 1px -59px;
+
+}
+
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
