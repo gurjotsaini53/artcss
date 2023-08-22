@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #FFBFBF;
+   overflow: hidden;
+}
+div.container .main{
+    
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+div.container .main .main2{
+    height: 360px;
+    
+    width: 360px;
+    border-radius: 100%;
+    background: linear-gradient(red,yellow);
+     overflow: hidden;
+position: relative;
+}
+
+
+
+.ray1{
+    /* position: absolute; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 220px;
+  margin-top: 30px ;
+  margin-left: -60px;
+    border-radius: 100%;
+    background-color: #F5D76E;
+    
+}
+
+.ray2{
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #F4D03F;
+}
+.ray3{
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #FFB94E;
+
+}
+.ray4{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+    background-color: #FFA631;
+}
+
+.sun{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: #f90e0e;
+}
+
+
+
+
+
+.star{
+    background-color: #ffffff;
+    position:absolute;
+   margin-top: 100px;
+    display: inline;
+    margin-left: 110px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    
+}

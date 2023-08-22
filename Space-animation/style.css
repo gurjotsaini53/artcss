@@ -22,7 +22,7 @@ section{
       animation: animatebg linear 5s infinite;
 }
 
-@keyframes animatebg{
+/* @keyframes animatebg{
     0%,100%{
         transform: scaleX(1);
     }
@@ -30,7 +30,7 @@ section{
     50%{
         transform: scaleX(1.2);
     }
-}
+} */
 span::before{
     content: '';
     position: absolute;

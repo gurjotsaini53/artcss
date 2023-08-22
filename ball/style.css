@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+.main{
+    background-color: cornflowerblue;
+    min-width: 100%;
+    min-height: 70vh;
+}
+
+
+.grass{
+min-width: 100%;
+min-height: 30vh;
+background-color: green;
+}
+
+
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: red;
+    position:absolute;
+
+    top:0px;
+    left: 40%;
+   animation: bounce 2s reverse infinite;
+}
+
+
+@keyframes bounce{
+
+    0%,100%{
+        top: 0;
+        left:40%;
+    }
+
+    10%{
+        top: 60vh;
+        left:40%;
+    }
+    20%{
+        top: 50vh;
+        left:40%;
+    } 
+
+    
+    30%{
+        top: 60vh;
+        left:40%;
+    }
+        
+     40%{
+        top: 40vh;
+        left:40%;
+    }
+
+   
+    50%{
+        top: 60vh;
+        left:40%;
+    } 
+
+    60%{
+        top: 30vh;
+        left:40%;
+    }
+
+    
+    70%{
+        top: 60vh;
+        left:40%;
+    }
+    80%{
+        top: 20vh;
+        left:40%;
+    }
+    90%{
+        top: 60vh;
+        left:40%;
+    } 
+}
